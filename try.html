@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="jquery-1.9.1.min.js"></script>
+</head>
+<body>
+  <p>哈皮</p>
+  <a>我爱你</a>
+  <button id="id1">try</button>
+  <button id="id2">try2</button>
+  <script>
+    $(document).ready(function(){
+      $('button#id1').click(function(){
+        $('p').hide();
+      });
+    });
+    $(document).ready(function(){
+      $('button#id2').click(function(){
+        $('p').show();
+      });
+    });
+  </script>
+</body>
+</html>
